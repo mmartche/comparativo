@@ -1,0 +1,150 @@
+ul, li, h1, label {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+footer {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: block;
+	height: 300px;
+}
+.menu {
+	display: none;
+}
+.dataContent {
+	overflow: hidden;
+}
+.dataColLeft {
+	float: left;
+	position: relative;
+	border: 1px dotted;
+	padding:10px;
+	margin-right: 50px;
+	width: 750px;
+}
+.dataColLeft span {
+	display: block;
+	overflow: hidden;
+}
+.dataColLeft label {
+	float: left;
+}
+.dataColLeft input, .dataColLeft textarea {
+	width: 500px;
+	float: right;
+	background-color: #fff;
+}
+.dataColLeft input {
+	height: 35px;
+	background-color: transparent;
+}
+.dataColRight {
+	float: left;
+	width: 800px;
+}
+.dataFields {
+	padding: 10px;
+}
+.optionsFields {
+	border: 1px solid;
+	padding:10px;
+	overflow: hidden;
+	position: relative;
+}
+.optionsFields span {
+	width: 250px;
+	display: block;
+	float: left;
+	margin: 5px 0 0;
+}
+.divColor {
+	width: 36px;
+	height: 36px;
+	background-color: #eee;
+}
+.divSave {
+	width: 540px;
+	margin: auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.btnSave {
+	padding: 7px 10px 3px;
+	width: 100%;
+}
+.divColor {
+	position: relative;
+	width: 36px;
+	overflow: hidden;
+	height: 36px;
+	background: url(../images/colorpicker/select.png);
+}
+.divColor div {
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 30px;
+	height: 30px;
+	background: url(../images/colorpicker/select.png) center;
+}
+.delColor {
+	width: 20px;
+	height: 20px;
+	border: 1px dotted;
+	float: right;
+	margin-right: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.border {
+	border: 1px solid;
+}
+.updateOpt {
+	display: block;
+}
+#resultOptions span {
+	position: relative;
+	margin: 1px;
+	border: 1px solid;
+}
+.removeOpt {
+	width: 20px;
+	height: 20px;
+	border: 1px dotted;
+	text-align: center;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: none;
+}
+.optionsFields span:hover .removeOpt {
+	display: inline;
+}
+.btnRemoveTempImg {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+.clonePicture {
+	float: right;
+	width: 380px;
+}
+.clonePicture .subTitleAllItems {
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	background: red !important;
+	color: #fff;
+}
+#optBlockEdit, #optBlockSave, #colorBlockEdit, #colorBlockSave {
+	margin: 10px 0;
+}
+.blockColorSelector {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	z-index: 3;
+}

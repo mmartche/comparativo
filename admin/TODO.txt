@@ -1,0 +1,31 @@
+ADMIN EXPLORER
+
+ok-modificar o campo feature.items para uma nova tabela separando cada item num novo registro
+-qndo for montar o front end... validar se existe registro na tabela de itemsSerie, senao busca campo items na tabela feature
+
+
+-add field at `feature` table "pictureName"
+-add <label for=> para os checkbox
+
+
+
+HOME
+-separar o css do header e footer
+-barra uol
+
+MEGA OFERTA
+*admin: 
+-ordernar
+-editar
+-add name
+
+*front:
+-chat
+-banner
+-omniture
+-change css to local
+-email (send & layout)
+
+
+EXPLORADOR
+- quando selectiona um item na busca, adiciona ele no form abaixo do botao para mostrar opcoes

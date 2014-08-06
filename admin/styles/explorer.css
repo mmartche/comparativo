@@ -1,0 +1,140 @@
+.liMO {
+	float: left;
+	width: 370px;
+	border: 1px solid;
+	text-align: center;
+	position: relative;
+	margin: 5px 15px;
+	overflow: hidden;
+}
+.removeItem {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+	background-color: red;
+	padding: 4px 0;
+	color: #fff;
+}
+.updateItem {
+	display: none;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	border: 1px solid;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+	background-color: green;
+	padding: 4px 0;
+	color: #fff;
+}
+.liMO:hover .removeItem, .liMO:hover .updateItem {
+	display: inline;
+}
+.titleLiMO {
+	padding: 10px 10px 10px 70px;
+	background-color: #eee;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	min-height: 62px;
+}
+.imgLiMO {
+	float: left;
+}
+.priceLiMO {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.dateLimitLiMO {
+	float: left;
+	width: 250px;
+}
+.placeLiMO {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.descLiMO {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.megaOfertaData {
+	
+	overflow: scroll;
+}
+.btnClone {
+	padding: 5px 10px;
+	float: none;
+	margin: auto;
+	height: 30px;
+}
+.megaDiv {
+	position: relative;
+}
+.megaSelects {
+
+}
+.megaInputs {
+	margin: 10px 0 10px 10px;
+	float: left;
+	width: 100%;
+}
+.megaInputs p {
+	width: 350px;
+}
+.megaInputs .inputDesc{
+	float: right;
+	width: 250px;
+}
+.filePicture {
+	overflow: hidden;
+}
+.orderMega {
+	position: absolute;
+}
+.upOrder {
+	float: left;
+	cursor: pointer;
+	border: 1px solid;
+	margin: 5px;
+	padding: 5px;
+}
+.downOrder {
+	float: left;
+	cursor: pointer;
+	border: 1px solid;
+	margin: 5px;
+	padding: 5px;
+}
+.numberOrder {
+	float: left;
+	padding: 10px 0;
+}
+.formMega {
+	width: 362px;
+	overflow: hidden;
+}
+.formMega.affix{
+	top: 0;
+}
+.contentMega {
+	margin-left: 360px;
+	position: absolute;
+	top: 145px;
+}
+.subTitleMega {
+	text-align: center;
+}
+.checkedEditMega {
+	border: solid green;
+}

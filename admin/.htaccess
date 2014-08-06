@@ -1,0 +1,19 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=300, public"
+</filesMatch>
+ExpiresActive  On
+ExpiresDefault           "access plus 1 week"
+ExpiresByType  text/html "access plus 12 hours"
+ExpiresByType  image/*   "access plus 1 year"
+ExpiresByType  audio/*   "access plus 1 year"
+# END WordPress

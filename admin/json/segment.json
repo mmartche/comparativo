@@ -1,0 +1,21 @@
+[{
+	"id":"1",
+	"label":"Hatch",
+	"category": "",
+	"value":"Hatch"
+},{
+	"id":"2",
+	"label":"Sedan",
+	"category": "",
+	"value":"Sedan"
+},{
+	"id":"3",
+	"label":"Adventure",
+	"category": "",
+	"value":"Adventure"
+},{
+	"id":"4",
+	"label":"Jeep",
+	"category": "",
+	"value":"Jeep"
+}]
